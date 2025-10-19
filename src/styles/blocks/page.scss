@@ -12,6 +12,8 @@
     min-width: 320px;
   }
 
+
+
   &__menu {
     position: fixed;
     top: 0;
@@ -29,4 +31,8 @@
       pointer-events: all;
     }
   }
+}
+
+.page:has(.page__menu:target) {
+  overflow: hidden;
 }

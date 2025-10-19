@@ -107,10 +107,16 @@
     line-height: 140%;
     letter-spacing: 0.15px;
     color: #191919;
+    transition: color $effectDuration;
 
     a {
       color: inherit;
       text-decoration: none;
+    }
+
+    &:hover {
+        color: #f98921;
+        cursor: pointer;
     }
   }
 
@@ -151,3 +157,4 @@
     padding: 14px 16px;
   }
 }
+
